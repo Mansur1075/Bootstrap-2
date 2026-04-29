@@ -133,6 +133,8 @@ a{
 /* bennar part start */
 #mansur_hed{
     background-color: #F2F0FF;
+    /* padding: 0px 40px; */
+    padding-bottom: 40px;
 }
 .mansur_20{
     display: flex;
@@ -171,4 +173,71 @@ a{
 }
 .mansur_24{
     padding-top: 20px;
+}
+/* img part start */
+#mansur_benr{
+    padding: 40px 0px;
+}
+.mansur_27{
+    display: flex;
+    justify-content: space-between;
+}
+.mansur_30{
+    text-align: center;
+    background-color: #F6F7FB;
+    padding: 20px;
+}
+.mansur_29{
+    text-align: center;
+    padding: 10px 40px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.mansur_29 h5{
+    font-size: 18px;
+    font-weight: bold;
+    color: #FB2E86;
+
+}
+.mansur_29 p{
+    font-size: 14px;
+    font-weight: 400;
+    color: #151875;
+}
+.mansur_29 h6{
+    font-size: 14px;
+    font-weight: 400;
+    color: #000;
+}
+.mansur_31{
+    height: 42%;
+    width: 100%;
+    background-color: #2F1AC4;
+    overflow: hidden;
+}
+.mansur_28{
+    position: relative;
+}
+.mansur_31{
+    position: absolute;
+    top: 58%;
+    left: 0;
+}
+.mansur_31{
+    text-align: center;
+    padding: 10px 40px;
+}
+.mansur_31 h5{
+     font-size: 18px;
+    font-weight: bold;
+    color: #FFF;
+}
+.mansur_31 h6{
+    font-size: 14px;
+    font-weight: 400;
+    color: #fff;
+}
+.mansur_31 p{
+     font-size: 14px;
+    font-weight: 400;
+    color: #fff;
 }
