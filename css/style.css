@@ -176,7 +176,8 @@ a{
 }
 /* img part start */
 #mansur_benr{
-    padding: 40px 0px;
+    padding: 50px 0px;
+    cursor: pointer;
 }
 .mansur_27{
     display: flex;
@@ -189,9 +190,30 @@ a{
 }
 .mansur_29{
     text-align: center;
-    padding: 10px 40px;
+    padding: 10px 60px;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
+.MANSUR_1 h2{
+    font-size: 42px;
+    font-weight: bold;
+    text-align: center;
+    padding-bottom: 20px ;
+}
+.mansur_11111 :hover {
+    background-color: #2F1AC4;
+    color: #D9D9D9;
+    transition: 0.7s;
+}
+.mansur_11111 :hover h5{
+    color: #fff;
+}
+.mansur_11111 :hover h6{
+    color: #fff;
+}
+.mansur_11111 :hover p{
+    color: #fff;
+}
+
 .mansur_29 h5{
     font-size: 18px;
     font-weight: bold;
@@ -219,7 +241,7 @@ a{
 }
 .mansur_31{
     position: absolute;
-    top: 58%;
+    top: 50%;
     left: 0;
 }
 .mansur_31{
@@ -241,3 +263,69 @@ a{
     font-weight: 400;
     color: #fff;
 }
+.icone_1{
+ display: flex;
+ text-align: center;
+ padding-left: 45px;
+ gap: 5px;
+}
+.icone_2{
+    color: #05E6B7;
+}
+.icone_3{
+    color: #F701A8;
+}
+.icone_4{
+    color: #FFEAC1;
+}
+.mansur_31{
+    opacity: 0;
+}
+.mansur_27 :hover.mansur_31{
+    opacity: 1;
+    transition: 0.7s;
+}
+.mansur_27{
+    position: relative;
+}
+.icone_all{
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    color: #1389FF;
+}
+.icone_all{
+    display: flex;
+    gap: 15px;
+
+}
+.icone_all{
+    opacity: 0;
+}
+.mansur_28:hover .icone_all {
+    opacity: 1;
+    transition: 0.7s;
+   
+}
+.rrrrrr{
+    display: flex;
+    justify-content: space-between;
+}
+.mansur_28{
+    position: relative;
+}
+.mansur_4000 button{
+    font-family: 'Josefin Sans', sans-serif;
+    background-color: #08D15F;
+    border: none;
+    padding: 4px 10px;
+    color: #fff;
+    position: absolute;
+    top: 45%;
+    left: 30%;
+    opacity: 0;
+}
+.mansur_28:hover .mansur_4000 button{
+    opacity: 1;
+}
+
