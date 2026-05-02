@@ -1,58 +1,65 @@
-
-*{
+* {
     margin: 0;
     padding: 0;
 }
 
-#mansur_all{
+#mansur_all {
     background-color: #7E33E0;
 }
-.mansur_10{
+
+.mansur_10 {
     align-items: center;
     display: flex;
     justify-content: space-between;
-   
+
 }
-.mansur_11{
+
+.mansur_11 {
     gap: 30px;
     display: flex;
 }
-.mansur_11 h4{
-     font-family: 'Lato', sans-serif;
+
+.mansur_11 h4 {
+    font-family: 'Lato', sans-serif;
     font-size: 16px;
     font-weight: 500;
     color: #fff;
-    padding-top:4px ;
+    padding-top: 4px;
 
 }
+
 .mansur_12 {
     padding-top: 8px;
     display: flex;
     gap: 15px;
 }
-.mansur_12 li a{
-     font-family: 'Lato', sans-serif;
+
+.mansur_12 li a {
+    font-family: 'Lato', sans-serif;
     font-size: 16px;
     font-weight: 400;
     color: #fff;
-   
+
     text-decoration: none;
 
 }
 
 
 /* hedar part end */
-.mansur_1{
+.mansur_1 {
     background-color: #FFFFFF;
     align-items: center;
 }
-ul{
+
+ul {
     list-style: none;
 }
-a{
+
+a {
     text-decoration: none;
 }
-.mansur_1 ul li a{
+
+.mansur_1 ul li a {
     font-size: 16px;
     font-weight: 400;
     color: black;
@@ -65,35 +72,40 @@ a{
     scale: 0.9;
     transition: 0.6;
 }
-.mansur_1 ul{
+
+.mansur_1 ul {
     padding-left: 30px;
 }
-.mansur_2{
+
+.mansur_2 {
     position: relative;
 }
-.mansur_2:hover .dorp{
+
+.mansur_2:hover .dorp {
     opacity: 1;
 }
-.dorp{
+
+.dorp {
     position: absolute;
-    background: linear-gradient(135deg, #ff4d94, #ff2e86); /* smooth gradient */
+    background: linear-gradient(135deg, #ff4d94, #ff2e86);
+    /* smooth gradient */
     top: 25px;
     left: 0;
 
     width: 100px;
     padding: 8px 0;
     border-radius: 10px;
-    box-shadow: 0 12px 25px rgba(0,0,0,0.15);
+    box-shadow: 0 12px 25px rgba(0, 0, 0, 0.15);
     opacity: 0;
 }
 
-.dorp ul{
+.dorp ul {
     margin: 0;
     padding: 0;
     list-style: none;
 }
 
-.dorp ul li{
+.dorp ul li {
     align-items: center;
     line-height: 40px;
     padding: 0 5px;
@@ -104,19 +116,20 @@ a{
     text-align: center
 }
 
-.dorp ul li:hover{
+.dorp ul li:hover {
     background-color: #fff;
     color: #ff2e86;
     border-radius: 6px;
     margin: 4px 8px;
 }
-.btn_2{
+
+.btn_2 {
     position: relative;
     top: 0;
     left: 0;
 }
 
-.btn_2 a{
+.btn_2 a {
     position: absolute;
     top: 0px;
     right: -3;
@@ -124,197 +137,238 @@ a{
     color: #ffff;
     background-color: #FB2E86;
 }
-.btn_2 input{
+
+.btn_2 input {
     background-color: #D9D9D9;
     border: none;
 
 }
+
 /*  nav part end */
 /* bennar part start */
-#mansur_hed{
+#mansur_hed {
     background-color: #F2F0FF;
     /* padding: 0px 40px; */
     padding-bottom: 40px;
 }
-.mansur_20{
+
+.mansur_20 {
     display: flex;
     gap: 20px;
     justify-content: space-between;
 }
-.mansur_23{
+
+.mansur_23 {
     padding-top: 100px;
 }
-.mansur_23 h4{
+
+.mansur_23 h4 {
     font-family: 'Lato', sans-serif;
     font-size: 16px;
     font-weight: bold;
     color: #FB2E86;
 
 }
-.mansur_23 h2{
+
+.mansur_23 h2 {
     font-family: 'Josefin Sans', sans-serif;
     font-size: 45px;
     font-weight: bold;
     color: #000;
 }
+
 .mansur_23 p {
-     font-family: 'Lato', sans-serif;
+    font-family: 'Lato', sans-serif;
     font-size: 16px;
     font-weight: bold;
     color: #8A8FB9;
 
 }
-.mansur_23 button{
+
+.mansur_23 button {
     padding: 5px 10px;
     background-color: #FB2E86;
     color: #fff;
     border: none;
     text-align: center;
 }
-.mansur_24{
+
+.mansur_24 {
     padding-top: 20px;
 }
+
 /* img part start */
-#mansur_benr{
+#mansur_benr {
     padding: 50px 0px;
     cursor: pointer;
 }
-.mansur_27{
+
+.mansur_27 {
     display: flex;
     justify-content: space-between;
 }
-.mansur_30{
+
+.mansur_30 {
     text-align: center;
     background-color: #F6F7FB;
     padding: 20px;
 }
-.mansur_29{
+
+.mansur_29 {
     text-align: center;
     padding: 10px 60px;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
-.MANSUR_1 h2{
+
+.MANSUR_1 h2 {
     font-size: 42px;
     font-weight: bold;
     text-align: center;
-    padding-bottom: 20px ;
+    padding-bottom: 20px;
 }
+
 .mansur_11111 :hover {
     background-color: #2F1AC4;
     color: #D9D9D9;
     transition: 0.7s;
 }
-.mansur_11111 :hover h5{
-    color: #fff;
-}
-.mansur_11111 :hover h6{
-    color: #fff;
-}
-.mansur_11111 :hover p{
+
+.mansur_11111 :hover h5 {
     color: #fff;
 }
 
-.mansur_29 h5{
+.mansur_11111 :hover h6 {
+    color: #fff;
+}
+
+.mansur_11111 :hover p {
+    color: #fff;
+}
+
+.mansur_29 h5 {
     font-size: 18px;
     font-weight: bold;
     color: #FB2E86;
 
 }
-.mansur_29 p{
+
+.mansur_29 p {
     font-size: 14px;
     font-weight: 400;
     color: #151875;
 }
-.mansur_29 h6{
+
+.mansur_29 h6 {
     font-size: 14px;
     font-weight: 400;
     color: #000;
 }
-.mansur_31{
+
+.mansur_31 {
     height: 42%;
     width: 100%;
     background-color: #2F1AC4;
     overflow: hidden;
 }
-.mansur_28{
+
+.mansur_28 {
     position: relative;
 }
-.mansur_31{
+
+.mansur_31 {
     position: absolute;
     top: 50%;
     left: 0;
 }
-.mansur_31{
+
+.mansur_31 {
     text-align: center;
     padding: 10px 40px;
 }
-.mansur_31 h5{
-     font-size: 18px;
+
+.mansur_31 h5 {
+    font-size: 18px;
     font-weight: bold;
     color: #FFF;
 }
-.mansur_31 h6{
+
+.mansur_31 h6 {
     font-size: 14px;
     font-weight: 400;
     color: #fff;
 }
-.mansur_31 p{
-     font-size: 14px;
+
+.mansur_31 p {
+    font-size: 14px;
     font-weight: 400;
     color: #fff;
 }
-.icone_1{
- display: flex;
- text-align: center;
- padding-left: 45px;
- gap: 5px;
+
+.icone_1 {
+    display: flex;
+    text-align: center;
+    padding-left: 45px;
+    gap: 5px;
 }
-.icone_2{
+
+.icone_2 {
     color: #05E6B7;
 }
-.icone_3{
+
+.icone_3 {
     color: #F701A8;
 }
-.icone_4{
+
+.icone_4 {
     color: #FFEAC1;
 }
-.mansur_31{
+
+.mansur_31 {
     opacity: 0;
 }
-.mansur_27 :hover.mansur_31{
+
+.mansur_27 :hover.mansur_31 {
     opacity: 1;
     transition: 0.7s;
 }
-.mansur_27{
+
+.mansur_27 {
     position: relative;
 }
-.icone_all{
+
+.icone_all {
     position: absolute;
     top: 10px;
     left: 10px;
     color: #1389FF;
 }
-.icone_all{
+
+.icone_all {
     display: flex;
     gap: 15px;
 
 }
-.icone_all{
+
+.icone_all {
     opacity: 0;
 }
+
 .mansur_28:hover .icone_all {
     opacity: 1;
     transition: 0.7s;
-   
+
 }
-.rrrrrr{
+
+.rrrrrr {
     display: flex;
     justify-content: space-between;
 }
-.mansur_28{
+
+.mansur_28 {
     position: relative;
 }
-.mansur_4000 button{
+
+.mansur_4000 button {
     font-family: 'Josefin Sans', sans-serif;
     background-color: #08D15F;
     border: none;
@@ -325,17 +379,21 @@ a{
     left: 30%;
     opacity: 0;
 }
-.mansur_28:hover .mansur_4000 button{
+
+.mansur_28:hover .mansur_4000 button {
     opacity: 1;
 }
+
 /* Leatest part start */
-#Leatest{
+#Leatest {
     padding: 50px 0;
 }
-.Leatest_2{
+
+.Leatest_2 {
     text-align: center;
 }
-.Leatest_2 h3{
+
+.Leatest_2 h3 {
 
     font-size: 42px;
     font-weight: bold;
@@ -343,12 +401,14 @@ a{
     padding-bottom: 10px;
 
 }
-.Leatest_3{
+
+.Leatest_3 {
     display: flex;
     text-align: center;
     justify-content: center;
     gap: 10px;
 }
+
 .Leatest_3 {
     display: flex;
     justify-content: center;
@@ -360,7 +420,12 @@ a{
 .Leatest_3 li {
     position: relative;
     cursor: pointer;
-    
+    text-transform: capitalize;
+    font-family: 'Lato', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+
+
 }
 
 .Leatest_3 li::after {
@@ -377,14 +442,17 @@ a{
 .Leatest_3 li:hover::after {
     width: 100%;
 }
-.Leatest_3 li:hover{
-    color: red ;
+
+.Leatest_3 li:hover {
+    color: red;
 }
-.Leatest_11{
+
+.Leatest_11 {
     background-color: #F7F7F7;
     width: 30%;
     text-align: center;
 }
+
 .Leatest_12 h5 {
     background-color: #3F509E;
     width: 70px;
@@ -401,19 +469,41 @@ a{
     -ms-border-radius: 10px;
     -o-border-radius: 10px;
 }
+
 .Leatest_11 {
     position: relative;
+
 }
-.Leatest_12{
+
+.Leatest_12 {
     position: absolute;
-    top: 0;
+    top: 10px;
     left: 0;
 }
 
+.Leatest_12 i {
+    color: #2F1AC4;
+    padding-top: 10px;
+}
 
+.Leatest_11:hover .Leatest_12 {
+    opacity: 1;
+}
 
+.Leatest_12 {
+    opacity: 0;
+    transition: 0.3s;
+    /* smooth effect */
+}
 
+.TEXT_100 {
+    margin-top: 10px;
+    width: 30%;
+    display: flex;
+    justify-content: space-between;
+}
 
-
-
-
+.TEXT_101 {
+    display: flex;
+    gap: 10px;
+}
