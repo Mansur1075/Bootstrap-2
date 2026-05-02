@@ -468,6 +468,8 @@ a {
     -moz-border-radius: 10px;
     -ms-border-radius: 10px;
     -o-border-radius: 10px;
+    color: #fff;
+    padding-bottom: 4px;
 }
 
 .Leatest_11 {
@@ -506,4 +508,35 @@ a {
 .TEXT_101 {
     display: flex;
     gap: 10px;
+}
+
+.TEXT_100 h6 {
+    font-size: 16px;
+    font-weight: 400;
+    color: #151875;
+    font-family: 'Josefin Sans', sans-serif;
+
+
+}
+
+.TEXT_101 h5 {
+    font-size: 14px;
+    font-weight: 500;
+    color: #151875;
+    font-family: 'Josefin Sans', sans-serif;
+
+
+}
+
+.TEXT_101 p {
+    font-size: 12px;
+    font-weight: 400;
+    color: #FB2448;
+    font-family: 'Josefin Sans', sans-serif;
+
+
+}
+.Leatest_555{
+    display: flex;
+    justify-content: space-between;
 }
