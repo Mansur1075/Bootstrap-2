@@ -449,7 +449,6 @@ a {
 
 .Leatest_11 {
     background-color: #F7F7F7;
-    width: 30%;
     text-align: center;
 }
 
@@ -491,6 +490,9 @@ a {
 .Leatest_11:hover .Leatest_12 {
     opacity: 1;
 }
+.Leatest_11:hover{
+    background-color: #fff;
+}
 
 .Leatest_12 {
     opacity: 0;
@@ -500,7 +502,7 @@ a {
 
 .TEXT_100 {
     margin-top: 10px;
-    width: 30%;
+ 
     display: flex;
     justify-content: space-between;
 }
@@ -539,4 +541,8 @@ a {
 .Leatest_555{
     display: flex;
     justify-content: space-between;
+}
+.Leatest_10{
+    display: flex;
+   gap: 60px;
 }
