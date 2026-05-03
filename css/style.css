@@ -490,7 +490,8 @@ a {
 .Leatest_11:hover .Leatest_12 {
     opacity: 1;
 }
-.Leatest_11:hover{
+
+.Leatest_11:hover {
     background-color: #fff;
     box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
 }
@@ -503,7 +504,7 @@ a {
 
 .TEXT_100 {
     margin-top: 10px;
- 
+
     display: flex;
     justify-content: space-between;
 }
@@ -539,27 +540,32 @@ a {
 
 
 }
-.Leatest_555{
+
+.Leatest_555 {
     display: flex;
     justify-content: space-between;
 }
-.Leatest_10{
+
+.Leatest_10 {
     display: flex;
     flex-wrap: wrap;
     gap: 60px;
 }
+
 /* What part start */
-#What_all{
+#What_all {
     padding: 50px 0;
 }
-.What_1 h4{
+
+.What_1 h4 {
     font-family: 'Josefin Sans', sans-serif;
     font-size: 40px;
     font-weight: bold;
     color: #151875;
     text-align: center;
 }
-.What{
+
+.What {
     margin-top: 20px;
     text-align: center;
     background-color: #FFFFFF;
@@ -567,23 +573,38 @@ a {
     box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
 
 }
-.What h6{
-     font-family: 'Josefin Sans', sans-serif;
-     padding-top: 20px;
+
+.What h6 {
+    font-family: 'Josefin Sans', sans-serif;
+    padding-top: 20px;
     font-size: 22;
     font-weight: 600;
     color: #151875;
 
 }
-.What p{
-     font-family: 'Josefin Sans', sans-serif;
-     padding-top: 20px;
+
+.What p {
+    font-family: 'Josefin Sans', sans-serif;
+    padding-top: 20px;
     font-size: 16px;
     font-weight: bold;
     color: #1a0b5b91;
-
 }
-.What_3{
+
+.What_3 {
     display: flex;
     gap: 20px;
+}
+
+/* Unique part start */
+#Unique_1 {
+    padding: 40px 0;
+    background-color: #F1F0FF;
+}
+.Unique{
+    display: flex;
+    align-items: center;
+}
+.Unique_4{
+    display: flex;
 }
