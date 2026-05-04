@@ -781,3 +781,45 @@ a {
 .Trending_img{
     display: flex;  
 }
+/*  Discount part start  */
+#Discount_all{
+    padding: 40px 0;
+}
+.Discount_3 h4{
+    font-size: 26px;
+    font-weight: 600;
+    color: #151875;
+    font-family: 'Josefin Sans', sans-serif;
+
+}
+.Discount_3 p{
+    font-size: 16px;
+    font-weight: 600;
+    color: #FB2E86;
+    font-family: 'Lato', sans-serif;
+    border-bottom: 1.5px solid #FB2E86;
+
+}
+
+.Discount_3{
+    background-color: #FFF6FB;
+    padding: 20px 30px;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+
+}
+.Discount_3:hover{
+    background-color: #EEEFFB;
+    -o-transition: ease-in-out;
+}
+.Discount_5{
+    margin-left: 130px;
+    
+}
+.Discount{
+    display: flex;
+    gap: 10px;
+}
+.Discount_4{
+    margin-top: 25px;
+    margin-left: 35px;
+}
