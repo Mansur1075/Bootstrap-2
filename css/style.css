@@ -593,7 +593,7 @@ a {
 
 .What_3 {
     display: flex;
-    gap: 20px;
+    gap: 10px;
 }
 
 /* Unique part start */
@@ -778,21 +778,25 @@ a {
     text-align: center;
     padding-top: 10px;
 }
-.Trending_img{
-    display: flex;  
+
+.Trending_img {
+    display: flex;
 }
+
 /*  Discount part start  */
-#Discount_all{
+#Discount_all {
     padding: 40px 0;
 }
-.Discount_3 h4{
+
+.Discount_3 h4 {
     font-size: 26px;
     font-weight: 600;
     color: #151875;
     font-family: 'Josefin Sans', sans-serif;
 
 }
-.Discount_3 p{
+
+.Discount_3 p {
     font-size: 16px;
     font-weight: 600;
     color: #FB2E86;
@@ -801,25 +805,153 @@ a {
 
 }
 
-.Discount_3{
+.Discount_3 {
     background-color: #FFF6FB;
     padding: 20px 30px;
     box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
 
 }
-.Discount_3:hover{
+
+.Discount_3:hover {
     background-color: #EEEFFB;
     -o-transition: ease-in-out;
 }
-.Discount_5{
+
+.Discount_5 {
     margin-left: 130px;
-    
+
 }
-.Discount{
+
+.Discount {
     display: flex;
-    gap: 10px;
+    gap: 30px;
 }
-.Discount_4{
+
+.Discount_4 {
     margin-top: 25px;
     margin-left: 35px;
+}
+
+.Discount_10 {
+    display: flex;
+    align-items: center;
+
+
+}
+
+.Discount_6 {
+    padding: 20px 30px;
+    padding-bottom: 10px;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+}
+
+.Discount_6:hover {
+    background-color: #EEEFFB;
+
+}
+
+.Discount_10 h6 {
+    padding-top: 40px;
+    font-size: 16px;
+    font-weight: 600;
+    color: #151875;
+    font-family: 'Josefin Sans', sans-serif;
+
+}
+
+/* Item part start  */
+#Item_1 {
+    padding: 40px 0;
+}
+
+.Item_1 {
+    text-align: center;
+}
+
+.Item_2 h4 {
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 42px;
+    font-weight: bold;
+    color: #151875;
+    text-align: center;
+
+}
+
+.Item_lr {
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    font-size: 18px;
+    font-weight: 400;
+    font-family: 'Josefin Sans', sans-serif;
+    cursor: pointer;
+}
+
+.Item_lr li {
+    margin-bottom: 10px;
+}
+
+.Item_lr li:hover {
+    color: #F52B70;
+    border-bottom: 1.5px solid #F52B70;
+    transition: ease-in-out;
+
+}
+
+.Item_imgr {
+    padding: 20px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.Item_3030 {
+    display: flex;
+}
+
+.Item_3032 {
+    display: flex;
+}
+
+.Item_303000 h5 {
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 35px;
+    font-weight: bold;
+    color: #151875;
+}
+
+.Item_303000 h6 {
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 21px;
+    font-weight: 400;
+    color: #FB2E86;
+}
+
+.Item_303000 p {
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 17px;
+    font-weight: 400;
+    color: #B7BACB;
+}
+
+.Item_3030 h4 {
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: #B8B8DC;
+}
+
+.Item_3030 {
+    padding-top: 10px;
+    gap: 25px;
+}
+
+.Item_3032 {
+    gap: 25px;
+}
+.Item_3032 h4 {
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: #B8B8DC;
 }
