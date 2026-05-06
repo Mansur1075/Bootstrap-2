@@ -947,41 +947,44 @@ a {
 .Item_3032 {
     gap: 25px;
 }
+
 .Item_3032 h4 {
     font-family: 'Josefin Sans', sans-serif;
     font-size: 16px;
     font-weight: 400;
     color: #B8B8DC;
 }
+
 /* Categories part start */
-.Categories h4{
+.Categories h4 {
     text-align: center;
     font-family: 'Josefin Sans', sans-serif;
     font-size: 42px;
     font-weight: bold;
     color: #151875;
 }
-#Categories_all{
+
+#Categories_all {
     padding: 40px 0px;
     box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
 }
 
 
 
-.Categories{
+.Categories {
     text-align: center;
 }
 
-.Categories_3{
+.Categories_3 {
     display: flex;
     gap: 20px;
 }
 
-.cat_item{
+.cat_item {
     text-align: center;
 }
 
-.cat_img{
+.cat_img {
     width: 220px;
     height: 220px;
     background: #f5f5f5;
@@ -993,12 +996,12 @@ a {
     overflow: hidden;
 }
 
-.cat_img img{
+.cat_img img {
     width: 120px;
     z-index: 2;
 }
 
-.view_btn{
+.view_btn {
     font-size: 12px;
     position: absolute;
     bottom: 20px;
@@ -1011,7 +1014,7 @@ a {
 }
 
 
-.cat_img::after{
+.cat_img::after {
     content: "";
     position: absolute;
     width: 100%;
@@ -1025,85 +1028,179 @@ a {
     transition: 0.4s;
 }
 
-.cat_img:hover::after{
+.cat_img:hover::after {
     opacity: 1;
     transform: rotate(40deg);
 }
 
-.cat_img:hover .view_btn{
+.cat_img:hover .view_btn {
     display: block;
 }
-.cat_item h6{
+
+.cat_item h6 {
     padding-top: 15px;
 }
 
-.Categories_7{
+.Categories_7 {
     padding-top: 40px;
     display: flex;
     gap: 10px;
 }
+
 /* Newslater part start */
-#Newslater_all{
+#Newslater_all {
     background: url(../img/manik_0.png) no-repeat center / cover;
     padding: 100px 0;
 }
-.Newslater_4{
+
+.Newslater_4 {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
 }
-.Newslater_4 h3{
+
+.Newslater_4 h3 {
     font-family: 'Josefin Sans', sans-serif;
     font-size: 35px;
     font-weight: bold;
     color: #151875b3;
 }
-.Newslater_4 button{
+
+.Newslater_4 button {
     font-family: 'Josefin Sans', sans-serif;
     background-color: #F52B70;
     padding: 6px 10px;
     border: none;
 }
+
 /* Read_More */
-#Read_Moree{
+#Read_Moree {
     padding: 40px 0px;
 }
+
 /* Leatest Blog part */
-#Leatest_Blog{
+#Leatest_Blog {
     padding: 40px 0;
 }
-.Leatest_Blog3 h4{
+
+.Leatest_Blog3 h4 {
     font-family: 'Josefin Sans', sans-serif;
     font-size: 14px;
     font-weight: 500;
     color: #151875;
 }
-.Leatest_Blog32 i{
+
+.Leatest_Blog32 i {
     color: #F52B70;
 }
-.Leatest_Blog33 i{
+
+.Leatest_Blog33 i {
     color: #F52B70;
 }
-.Leatest_Blog34 p{
+
+.Leatest_Blog34 p {
     font-family: 'Josefin Sans', sans-serif;
     font-size: 18px;
     font-weight: 600;
     color: #151875;
 }
-.Leatest_Blog34 h6{
+
+.Leatest_Blog34 h6 {
     font-size: 16px;
-    font-weight:400; 
+    font-weight: 400;
     color: #72718F;
 
 }
-.Leatest_Blog34 a{
+
+.Leatest_Blog34 a {
     color: #000;
 }
-.Leatest_Blog34 a:hover{
+
+.Leatest_Blog34 a:hover {
     color: #F52B70;
 }
-.Leatest_Blog1{
+
+.Leatest_Blog1 {
     display: flex;
     gap: 20px;
+}
+
+/* footer part start */
+#Enter_all {
+    padding: 30px 0;
+}
+
+.Enter_2 h4 {
+    font-size: 38px;
+    font-weight: 600;
+    color: #000;
+    font-family: 'Josefin Sans', sans-serif;
+
+}
+
+.Enter_3 input {
+    border: none;
+    font-size: 16px;
+    font-weight: 400;
+    color: #8A8FB9;
+    background-color: #D9D9D9;
+    padding: 0px 10px;
+    padding-top: 5px;
+    align-items: center;
+    font-family: 'Josefin Sans', sans-serif;
+
+}
+
+.Enter_3 {
+    display: flex;
+}
+
+.Enter_3 input {
+    border: 1px solid #ddd;
+    padding: 8px 10px;
+    outline: none;
+    border-right: none;
+    /* 🔥 এখানে main কাজ */
+}
+
+.Enter_3 button {
+    background-color: #F52B70;
+    color: #fff;
+    border: 1px solid #F52B70;
+    padding: 8px 15px;
+    font-family: 'Josefin Sans', sans-serif;
+    cursor: pointer;
+}
+
+.Enter_2 span {
+    margin-top: 10px;
+    font-size: 16px;
+    font-weight: 400px;
+    color: #8A8FB9;
+    font-family: 'Josefin Sans', sans-serif;
+
+
+}
+.Enter_2 p {
+    font-size: 16px;
+    font-weight: 400px;
+    color: #8A8FB9;
+    font-family: 'Josefin Sans', sans-serif;
+
+
+}
+.Enter_7 h6{
+    font-size: 22px;
+    font-weight: 600;
+    color: #000000;
+    font-family: 'Josefin Sans', sans-serif;
+}
+.Enter_7 li{
+    font-size: 16px;
+    font-weight: 400;
+    color: #8A8FB9;
+    font-family: 'Josefin Sans', sans-serif;
+
+   
 }
