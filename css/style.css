@@ -1129,6 +1129,10 @@ a {
 /* footer part start */
 #Enter_all {
     padding: 30px 0;
+    background-color: #8a8fb97b;
+}
+.Enter_1{
+    align-items: center;
 }
 
 .Enter_2 h4 {
@@ -1161,7 +1165,6 @@ a {
     padding: 8px 10px;
     outline: none;
     border-right: none;
-    /* 🔥 এখানে main কাজ */
 }
 
 .Enter_3 button {
@@ -1201,6 +1204,7 @@ a {
     font-weight: 400;
     color: #8A8FB9;
     font-family: 'Josefin Sans', sans-serif;
+    padding-top: 10px;
 
    
 }
