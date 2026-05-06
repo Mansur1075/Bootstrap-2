@@ -1208,3 +1208,22 @@ a {
 
    
 }
+#last_part{
+    padding: 20px 0;
+    background-color: #E7E4F8;
+}
+
+.last_part1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.last_part2 a{
+    font-size: 16px;
+    font-weight: 600;
+    color: #9DA0AE;
+    font-family: 'Josefin Sans', sans-serif;
+    text-decoration: none;
+
+
+}
