@@ -47,7 +47,7 @@
 
 /* hedar part end */
 .mansur_1 {
-    background-color: #FFFFFF;
+    /* background-color: #FFFFFF; */
     align-items: center;
 }
 
@@ -88,7 +88,6 @@ a {
 .dorp {
     position: absolute;
     background: linear-gradient(135deg, #ff4d94, #ff2e86);
-    /* smooth gradient */
     top: 25px;
     left: 0;
 
