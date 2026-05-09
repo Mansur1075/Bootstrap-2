@@ -146,13 +146,126 @@ a {
 /* bennar part start */
 #Shop_all{
     background-color: #F6F5FF;
-    padding: 60px 0;
+    padding: 100px 0;
 }
 .Shop_2 li{
+    padding-top: 10px;
     list-style: none;
+    font-size: 16px;
+    font-weight: 500;
+    color: #000000;
 }
-.Shop_2{
-    
+.Shop_2 li:hover{
+    color: #FB2E86;
+    cursor: pointer;
+}
+/* Ecommerce part */
+#Ecommerce_all{
+    padding: 60px;
+}
+.Ecommerce_1{
+    display: flex;
+    justify-content: space-between;
+}
+.Ecommerce_1 h4{
+    font-size: 22px;
+    font-weight: bold;
+    color: #151875;
+    font-family: 'Josefin Sans', sans-serif;
+
+}
+.Ecommerce_3 h6{
+    font-size: 16px;
+    font-weight: 400;
+    color: #000000;
+    font-family: 'Josefin Sans', sans-serif;
+
+}
+.Ecommerce_1 p{
+    font-size: 12px;
+    font-weight: 400;
+    color: #8A8FB9;
+    font-family: 'Josefin Sans', sans-serif;
+
+}
+.galary_3{
+    background-color: #EBF4F3;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+.galary_1{
+    text-align: center;
 }
 
+.galary_4{
+    justify-content: center;
+    gap: 10px;
+    display: flex;
+}
+.galary_2{
+    position: relative;
+}
+.galary_3:hover{
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    transition: ease-in-out;
+    -webkit-transition: ease-in-out;
+    -moz-transition: ease-in-out;
+    -ms-transition: ease-in-out;
+    -o-transition: ease-in-out;
+}
+.icone_2{
+    position: absolute;
+    top: 35%;
+    left: 5%;
+    color: #000000;
+    opacity: 0;
+}
+.dote_all{
+    padding-top: 10px;
+}
+.dote_all h5{
+    font-size: 18px;
+    font-weight: bold;
+    color: #000000;
 
+}
+.galary_2:hover .icone_2{
+    opacity: 1;
+     transition: ease-in-out;
+}
+.dote_1{
+    justify-content: center;
+}
+.dote_2{
+    color: #DE9034;
+    font-size: 12px;
+}
+.dote_3{
+    color: #8568FF;
+    font-size: 12px;
+}
+.dote_4{
+    color: #EC42A2;
+    font-size: 12px;
+}
+#galary_all2{
+    padding-top: 30px;
+}
+.galary_4{
+    padding-top: 10px;
+}
+.galary_4 h4{
+    font-size: 14px;
+    font-weight: 400;
+    color: #151875;
+    font-family: 'Josefin Sans', sans-serif;
+}
+.galary_4 h6{
+    font-size: 14px;
+    font-weight: 400;
+    color:#FB2E86;
+    font-family: 'Josefin Sans', sans-serif;
+}
+.galary_1{
+    display: flex;
+    gap: 18px;
+}
