@@ -187,3 +187,55 @@
     font-family: 'Josefin Sans', sans-serif;
     box-shadow: 0 0 0 2px rgba(244, 180, 0, 0.2);
 }
+ 
+
+
+.ms-color-title {
+  font-size: 20px;
+  margin: 20px 0;
+  position: relative;
+}
+
+.ms-color-title::after {
+  content: "";
+  width: 60%;
+  height: 2px;
+  background: #000;
+  position: absolute;
+  left: 0;
+  bottom: -5px;
+}
+
+.ms-color-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px 25px;
+}
+
+.ms-color-item {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 15px;
+  color: #666;
+  cursor: pointer;
+}
+
+.ms-color-item.active {
+  text-decoration: underline;
+}
+
+/* dots */
+.dot {
+  width: 14px;
+  height: 14px;
+  border-radius: 50%;
+}
+
+/* colors */
+.blue { background: #4a4aff; }
+.orange { background: #ff8c32; }
+.brown { background: #e0a96d; }
+.green { background: #2ecc71; }
+.purple { background: #c83df0; }
+.sky { background: #33c3f0; }
