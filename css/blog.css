@@ -44,6 +44,7 @@
     padding: 20px;
     margin-top: 15px;
     cursor: pointer;
+
 }
 
 .nulla_1:hover {
@@ -64,3 +65,5 @@
     -ms-transition: 0.7s;
     -o-transition: 0.7s;
 }
+
+
