@@ -112,43 +112,6 @@
     font-size: 12px;
 }
 
-.star {
-    display: inline-block;
-    animation: spin 1s linear infinite;
-    color: gold !important;
-    font-size: 16px !important;
-    cursor: pointer;
-}
-
-.star:nth-child(1) {
-    animation-delay: 0s;
-}
-
-.star:nth-child(2) {
-    animation-delay: 0.2s;
-}
-
-.star:nth-child(3) {
-    animation-delay: 0.4s;
-}
-
-.star:nth-child(4) {
-    animation-delay: 0.6s;
-}
-
-.star:nth-child(5) {
-    animation-delay: 0.8s;
-}
-
-@keyframes spin {
-    0% {
-        transform: rotate(0deg);
-    }
-
-    100% {
-        transform: rotate(360deg);
-    }
-}
 
 /* Video */
 #Video_all {
@@ -162,7 +125,7 @@
 }
 
 .Video_1 {
-    padding-left: 30px;
+    padding-left: 0px;
 }
 
 .Video_1 li {
@@ -171,4 +134,81 @@
     color: #151875;
     font-family: 'Josefin Sans', sans-serif;
 
+}
+
+.Video_2 h4 {
+    padding-top: 10px;
+    font-size: 22px;
+    font-weight: 600;
+    color: #151875;
+    font-family: 'Josefin Sans', sans-serif;
+
+}
+
+.Video_3 h4 {
+    padding-top: 10px;
+    font-size: 22px;
+    font-weight: 600;
+    color: #151875;
+    font-family: 'Josefin Sans', sans-serif;
+
+}
+
+.Video_2 p {
+    padding-top: 10px;
+    font-size: 15px;
+    font-weight: 600;
+    color: #A9ACC6;
+    font-family: 'Josefin Sans', sans-serif;
+
+}
+
+.Video_3 {
+    padding-top: 20px;
+}
+
+.Video_3 p {
+    padding-top: 10px;
+    font-size: 15px;
+    font-weight: 600;
+    color: #A9ACC6;
+    font-family: 'Josefin Sans', sans-serif;
+
+}
+
+/* image */
+#Fashion_all {
+    padding: 50px 0;
+}
+
+.Fashion_4 {
+    padding: 10px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    text-align: center;
+}
+
+.Fashion_2 {
+    justify-content: center;
+}
+
+.Fashion_2 h6 {
+    padding-top: 20px;
+    font-size: 16px;
+    font-weight: 600;
+    color: #151875;
+    font-family: 'Josefin Sans', sans-serif;
+
+}
+
+.Fashion_1 h4 {
+    font-size: 13px;
+    font-weight: 400;
+    color: #151875;
+    font-family: 'Josefin Sans', sans-serif;
+    
+
+}
+.Fashion_1{
+    display: flex;
+    gap: 10px;
 }
