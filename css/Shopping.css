@@ -1,13 +1,14 @@
-#Shopping_all{
-    padding: 40px 0;
+#Shopping_all {
+    padding: 70px 0;
 }
 
-.Shopping_3{
+.Shopping_3 {
     display: flex;
     justify-content: space-between;
     padding-left: 0px;
 }
-.Shopping_3 li{
+
+.Shopping_3 li {
     font-size: 20px;
     font-weight: 600;
     color: #1D3178;
@@ -15,10 +16,12 @@
 
 
 }
-.Shopping_ee{
+
+.Shopping_ee {
     justify-content: space-between;
     align-items: center;
 }
+
 .Shopping_ee {
     background: #fff;
     border-radius: 10px;
@@ -62,4 +65,109 @@
 .old-price {
     color: #999;
     text-decoration: line-through;
+}
+
+.reddd_1 button {
+    padding: 5px 10px;
+    background-color: deeppink;
+    color: #fff;
+    border: none;
+    font-family: 'Josefin Sans', sans-serif;
+
+}
+
+.reddd_1 {
+    padding-top: 10px;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.boxx_1 {
+    margin-top: 25px;
+    background-color: #F4F4FC;
+    padding: 10px;
+    box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+}
+
+.boxx_i {
+    display: flex;
+    justify-content: space-between;
+}
+
+.boxx_v {
+    display: flex;
+    justify-content: space-between;
+}
+
+.boxx_p {
+    display: flex;
+    gap: 10px;
+}
+
+.boxx_i h4 {
+    padding-bottom: 6px;
+    font-size: 18px;
+    font-weight: 500;
+    color: #8A91AB;
+    font-family: 'Josefin Sans', sans-serif;
+
+}
+
+.boxx_i {
+    border-bottom: 2px solid #8A91AB;
+
+}
+
+.boxx_v {
+    border-bottom: 2px solid #8A91AB;
+
+}
+
+.boxx_qq h2 {
+    text-align: center;
+    font-size: 20px;
+    font-weight: 600;
+    color: #1D3178;
+    font-family: 'Josefin Sans', sans-serif;
+
+}
+
+.boxx_v h3 {
+    padding-top: 8px;
+    font-size: 18px;
+    font-weight: 500;
+    color: #8A91AB;
+    font-family: 'Josefin Sans', sans-serif;
+
+}
+
+.boxx_p {
+    padding-top: 35px;
+}
+
+.boxx_p p {
+    font-size: 12px;
+    font-weight: 400;
+    color: #8A91AB;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.boxx_p i {
+    color: green;
+}
+
+.button_tow {
+    text-align: center;
+
+}
+
+.button_tow button {
+    margin-top: 10px;
+    padding: 5px 30px;
+    border: none;
+    background-color: #19D16F;
+    color: #fff;
+    font-family: 'Josefin Sans', sans-serif;
+
 }
