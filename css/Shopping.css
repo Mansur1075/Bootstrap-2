@@ -86,7 +86,7 @@
 .boxx_1 {
     margin-top: 25px;
     background-color: #F4F4FC;
-    padding: 10px;
+    padding: 30px;
     box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
 }
 
@@ -106,6 +106,7 @@
 }
 
 .boxx_i h4 {
+     padding-top: 25px;
     padding-bottom: 6px;
     font-size: 18px;
     font-weight: 500;
@@ -134,7 +135,7 @@
 }
 
 .boxx_v h3 {
-    padding-top: 8px;
+    padding-top: 25px;
     font-size: 18px;
     font-weight: 500;
     color: #8A91AB;
@@ -170,4 +171,58 @@
     color: #fff;
     font-family: 'Josefin Sans', sans-serif;
 
+}
+
+.text_2345 h4 {
+    font-size: 20px;
+    font-weight: 600;
+    color: #1d3178ac;
+    font-family: 'Josefin Sans', sans-serif;
+    text-align: center;
+    padding: 20px 0;
+
+}
+
+.boxxx_1 {
+    padding: 30px;
+    background-color: #F4F4FC;
+    box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+
+}
+
+.boxxx_22 h4 {
+     padding-top: 20px;
+    font-size: 14px;
+    font-weight: 500;
+    color: #8A91AB;
+    font-family: 'Josefin Sans', sans-serif;
+    padding-bottom: 10px;
+    border-bottom: 2px solid #8A91AB;
+
+}
+.boxxx_22 h5 {
+     padding-top: 20px;
+    font-size: 14px;
+    font-weight: 500;
+    color: #8A91AB;
+    font-family: 'Josefin Sans', sans-serif;
+    padding-bottom: 10px;
+    border-bottom: 2px solid #8A91AB;
+
+}
+.boxxx_22 h6 {
+    padding-top: 20px;
+    font-size: 14px;
+    font-weight: 500;
+    color: #8A91AB;
+    font-family: 'Josefin Sans', sans-serif;
+    padding-bottom: 10px;
+    border-bottom: 2px solid #8A91AB;
+
+}
+.button_123456 button{
+    padding: 5px 20px;
+    background-color: deeppink;
+    margin-top: 10px;
+    border: none;
 }
