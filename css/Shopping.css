@@ -106,7 +106,7 @@
 }
 
 .boxx_i h4 {
-     padding-top: 25px;
+     padding-top: 20px;
     padding-bottom: 6px;
     font-size: 18px;
     font-weight: 500;
@@ -165,7 +165,7 @@
 
 .button_tow button {
     margin-top: 10px;
-    padding: 5px 30px;
+    padding: 5px 50px;
     border: none;
     background-color: #19D16F;
     color: #fff;
@@ -225,4 +225,5 @@
     background-color: deeppink;
     margin-top: 10px;
     border: none;
+    color: #fff;
 }
