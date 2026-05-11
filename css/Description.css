@@ -1,0 +1,174 @@
+#Description_all {
+    padding: 40px 0;
+}
+
+.Description_1 {
+    background-color: #FFFFFF;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    padding: 20px;
+}
+
+.Description_1:hover {
+    background-color: rgba(0, 255, 255, 0.402);
+    transition: 0.7s ease-in-out;
+    -webkit-transition: 0.7s ease-in-out;
+    -moz-transition: 0.7s ease-in-out;
+    -ms-transition: 0.7s ease-in-out;
+    -o-transition: 0.7s ease-in-out;
+}
+
+.Description_7 {
+    padding-top: 10px;
+}
+
+.product-card {
+    padding: 40px;
+    max-width: 500px;
+    font-family: sans-serif;
+    color: #1a1a4b;
+}
+
+.product-card h2 {
+    font-size: 32px;
+    font-weight: 700;
+    font-family: 'Josefin Sans', sans-serif;
+
+}
+
+.rating {
+    color: #f4b400;
+    margin: 10px 0;
+}
+
+.rating span {
+    color: #1a1a4b;
+    font-size: 14px;
+    font-family: 'Josefin Sans', sans-serif;
+
+}
+
+.price {
+    margin: 10px 0;
+}
+
+.price .new {
+    font-size: 20px;
+    font-weight: bold;
+    margin-right: 10px;
+}
+
+.price .old {
+    text-decoration: line-through;
+    color: red;
+}
+
+.product-card p {
+    color: #888;
+    font-size: 14px;
+    font-family: 'Josefin Sans', sans-serif;
+
+}
+
+.cart {
+    margin: 20px 0;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.cart button {
+    background: transparent;
+    border: none;
+    font-weight: 600;
+    color: #1a1a4b;
+    cursor: pointer;
+    font-family: 'Josefin Sans', sans-serif;
+
+}
+
+.heart {
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.info p {
+    margin: 5px 0;
+    font-family: 'Josefin Sans', sans-serif;
+
+}
+
+.share {
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.share i {
+    background: #1a1a4b;
+    color: white;
+    padding: 6px;
+    border-radius: 50%;
+    font-size: 12px;
+}
+
+.star {
+    display: inline-block;
+    animation: spin 1s linear infinite;
+    color: gold !important;
+    font-size: 16px !important;
+    cursor: pointer;
+}
+
+.star:nth-child(1) {
+    animation-delay: 0s;
+}
+
+.star:nth-child(2) {
+    animation-delay: 0.2s;
+}
+
+.star:nth-child(3) {
+    animation-delay: 0.4s;
+}
+
+.star:nth-child(4) {
+    animation-delay: 0.6s;
+}
+
+.star:nth-child(5) {
+    animation-delay: 0.8s;
+}
+
+@keyframes spin {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+/* Video */
+#Video_all {
+    padding: 40px 0;
+    background-color: #F9F8FE;
+}
+
+.Video_1 {
+    display: flex;
+    gap: 30px;
+}
+
+.Video_1 {
+    padding-left: 30px;
+}
+
+.Video_1 li {
+    font-size: 24px;
+    font-weight: 600;
+    color: #151875;
+    font-family: 'Josefin Sans', sans-serif;
+
+}
