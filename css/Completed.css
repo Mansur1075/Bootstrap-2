@@ -1,0 +1,49 @@
+#Completed{
+      padding:100px 0;
+}
+
+.Completed_1{
+    display: flex;
+    justify-content: space-between;
+}
+.Completed_2{
+     text-align: center;
+}
+.Completed_2 h4{
+    font-size: 36px;
+    font-weight: bold;
+    color: #101750;
+    font-family: 'Josefin Sans', sans-serif;
+
+}
+.Completed_2 p{
+    font-size: 16px;
+    font-weight: 500;
+    color: #8D92A7;
+    font-family: 'Josefin Sans', sans-serif;
+
+}
+.Completed_2 img{
+    margin-bottom: 30px;
+    background-color: #FFFFFF;
+    padding: 15px 10px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.Completed_2 button{
+    background-color: deeppink;
+    padding: 5px 20px;
+    border: none;
+    color: #fff;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 500
+
+}
+.Completed_3{
+    padding-top: 22%;
+}
