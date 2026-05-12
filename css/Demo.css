@@ -1,0 +1,47 @@
+body {
+  background: #f5f6fa;
+  font-family: sans-serif;
+}
+
+.checkout-box {
+  max-width: 750px;
+  margin: 50px auto;
+  background: #fff;
+  padding: 40px;
+  border-radius: 12px;
+  border: 2px solid #4c6fff;
+}
+
+.custom-input {
+  border: none;
+  border-bottom: 1px solid #ccc;
+  border-radius: 0;
+  margin-bottom: 20px;
+  padding: 10px 5px;
+}
+
+.custom-input:focus {
+  border-color: #4c6fff;
+  box-shadow: none;
+}
+
+.login-text {
+  font-size: 14px;
+  color: #888;
+}
+.login-text span {
+  color: #4c6fff;
+  cursor: pointer;
+}
+
+.btn-shipping {
+  background: #ff3f6c;
+  color: #fff;
+  padding: 10px 25px;
+  border: none;
+  border-radius: 6px;
+}
+
+.btn-shipping:hover {
+  background: #e7335e;
+}
