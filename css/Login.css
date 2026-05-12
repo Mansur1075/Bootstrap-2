@@ -1,0 +1,54 @@
+.login-box {
+  width: 100%;
+  max-width: 450px;
+  background: #fff;
+  padding: 40px;
+  border: 2px solid #4c70ff92;
+  border-radius: 10px;
+}
+
+.login-input {
+  border: 1px solid #dcdfe6;
+  padding: 12px;
+  border-radius: 5px;
+}
+
+.login-input:focus {
+  border-color: #4c6fff;
+  box-shadow: none;
+}
+
+.forgot-text {
+  font-size: 14px;
+  color: #7a8194;
+  cursor: pointer;
+}
+
+.btn-login {
+  background: #ff3f6c;
+  color: #fff;
+  padding: 12px;
+  border: none;
+  border-radius: 5px;
+}
+
+.btn-login:hover {
+  background: #e7335e;
+}
+
+.small-text {
+  font-size: 14px;
+  color: #7a8194;
+}
+
+.small-text span {
+  color: #4c6fff;
+  cursor: pointer;
+}
+#rakib_111111111{
+    padding: 50px 0;
+    background-color: #fff;
+}
+#Read_Moree{
+    background-color: #ffff !important;
+}
