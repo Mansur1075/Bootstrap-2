@@ -1,0 +1,179 @@
+body {
+  background: #f5f6fa;
+  font-family: sans-serif;
+}
+
+
+.about-img {
+  position: relative;
+  padding-left: 15px;
+  padding-bottom: 15px;
+}
+
+.about-img img {
+  border-radius: 8px;
+  position: relative;
+  z-index: 2;
+}
+
+.about-img::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 95%;
+  height: 95%;
+  background: #2d3a8c;
+  border-radius: 8px;
+  z-index: 1;
+}
+
+
+.about-content h4 {
+  color: #2d3a64;
+  font-weight: 500;
+  margin-bottom: 15px;
+    font-family: 'Josefin Sans', sans-serif;
+
+}
+
+.about-content p {
+  font-size: 14px;
+  color: #7a8194;
+  margin-bottom: 20px;
+    font-family: 'Josefin Sans', sans-serif;
+
+}
+
+.btn-main {
+  background: #ff3f6c;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+}
+
+.btn-main:hover {
+  background: #e7335e;
+}
+.mansur_098{
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+#About_22222{
+    padding: 50px 0;
+}
+body {
+  background: #f5f6fa;
+  font-family: sans-serif;
+}
+
+
+.section-title {
+  color: #2d3a64;
+  font-weight: 500;
+}
+
+
+.feature-box {
+  background: #fff;
+  padding: 30px 20px;
+  border-radius: 10px;
+  transition: 0.3s;
+  position: relative;
+}
+
+
+.feature-box .icon {
+  font-size: 35px;
+  margin-bottom: 10px;
+}
+
+
+.feature-box h6 {
+  color: #2d3a64;
+  margin-bottom: 8px;
+}
+
+.feature-box p {
+  font-size: 13px;
+  color: #7a8194;
+}
+.feature-box::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 0%;
+  height: 3px;
+  background: orange;
+  transition: 0.3s;
+}
+
+.feature-box:hover::after {
+  width: 100%;
+}
+.manik_pppppp3{
+    padding-top: 40px ;
+}
+body {
+  background: #f5f6fa;
+  font-family: sans-serif;
+}
+
+.client-img {
+  width: 60px;
+  height: 60px;
+  object-fit: cover;
+  border-radius: 8px;
+  opacity: 0.6;
+  transition: 0.3s;
+}
+
+.client-img.active {
+  width: 70px;
+  height: 70px;
+  opacity: 1;
+}
+
+.client-img.small:hover {
+  opacity: 1;
+}
+
+
+.client-name {
+  color: #2d3a64;
+  margin-top: 10px;
+}
+
+.client-role {
+  font-size: 13px;
+  color: #7a8194;
+}
+
+
+.client-text {
+  max-width: 600px;
+  margin: auto;
+  font-size: 14px;
+  color: #7a8194;
+}
+
+
+.dot {
+  width: 20px;
+  height: 4px;
+  background: #f8a1b5;
+  border-radius: 10px;
+}
+
+.dot.active {
+  background: #ff3f6c;
+  width: 30px;
+}
+.manik_pppppp4 h4{
+    text-align: center;
+}
+.manik_pppppp4 p{
+    text-align: center;
+}
