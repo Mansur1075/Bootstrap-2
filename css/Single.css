@@ -12,19 +12,16 @@ body {
   font-family: sans-serif;
 }
 
-/* title */
 .blog-title {
   color: #2d3a64;
   font-weight: 600;
 }
 
-/* text */
 .blog-text {
   color: #7a8194;
   font-size: 14px;
 }
 
-/* highlight */
 .highlight-box {
   border: 2px dashed #4c6fff;
   padding: 15px;
@@ -33,7 +30,6 @@ body {
   font-size: 14px;
 }
 
-/* quote */
 .quote-box {
   border-left: 4px solid #ff3f6c;
   background: #f1f3f8;
@@ -42,7 +38,6 @@ body {
   color: #7a8194;
 }
 
-/* image */
 .img-box {
   position: relative;
 }
@@ -52,7 +47,6 @@ body {
   border-radius: 6px;
 }
 
-/* play button */
 .play-btn {
   position: absolute;
   top: 50%;
@@ -67,4 +61,71 @@ body {
   align-items: center;
   justify-content: center;
   font-size: 18px;
+}
+
+
+
+body {
+  background: #f5f6fa;
+  font-family: sans-serif;
+}
+
+.blog-text {
+  font-size: 14px;
+  color: #7a8194;
+}
+
+.product img {
+  width: 100%;
+  border-radius: 6px;
+}
+.product h6 {
+  margin: 5px 0;
+}
+.product p span {
+  text-decoration: line-through;
+  color: #aaa;
+}
+
+.highlight-box {
+  border: 2px dashed #4c6fff;
+  padding: 15px;
+  margin: 20px 0;
+}
+
+.social {
+  width: 35px;
+  height: 35px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  color: #fff;
+  margin: 0 5px;
+}
+.fb { background: #3b5998; }
+.ig { background: #ff3f6c; }
+.tw { background: #1da1f2; }
+
+.nav-post {
+  color: #7a8194;
+  cursor: pointer;
+}
+
+.comment-box img {
+  width: 60px;
+  height: 60px;
+  border-radius: 6px;
+  margin-right: 10px;
+}
+
+.btn-main {
+ text-align: center;
+  background: #ff3f6c;
+  color: #fff;
+  border: none;
+  padding: 10px 300px;
+}
+.mansurrrrrrrr{
+    text-align: center;
 }
