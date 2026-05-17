@@ -1,0 +1,100 @@
+.info-section {
+  background: #f9f9ff;
+}
+
+.info-title {
+  font-weight: 500;
+  margin-bottom: 10px;
+  font-size: 30px;
+    font-family: 'Josefin Sans', sans-serif;
+
+}
+
+.info-text {
+  font-size: 14px;
+  color: #777;
+  max-width: 400px;
+    font-family: 'Josefin Sans', sans-serif;
+
+}
+
+/* dots */
+.dot {
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+    font-family: 'Josefin Sans', sans-serif;
+
+}
+
+.dot.purple { background: #7b3fe4; }
+.dot.pink { background: #ff3c78; }
+.dot.cyan { background: #38c6d9; }
+
+/* circles */
+.circle {
+  width: 16px;
+  height: 16px;
+  border-radius: 50%;
+  margin-top: 3px;
+    font-family: 'Josefin Sans', sans-serif;
+
+}
+
+.circle.purple { background: #7b3fe4; }
+.circle.pink { background: #ff3c78; }
+.circle.orange { background: #f4a261; }
+.circle.green { background: #2ecc71; }
+
+
+
+.contact-area {
+  background: #f9f9ff;
+}
+
+/* Title */
+.contact-title {
+  font-size: 22px;
+  font-weight: 500;
+  margin-bottom: 10px;
+}
+
+/* Description */
+.contact-desc {
+  font-size: 14px;
+  color: #777;
+  margin-bottom: 20px;
+  max-width: 400px;
+}
+
+/* Form */
+.contact-form .form-control {
+  border-radius: 4px;
+  font-size: 13px;
+  padding: 10px;
+  border: 1px solid #ddd;
+}
+
+.contact-form .form-control:focus {
+  box-shadow: none;
+  border-color: #7b3fe4;
+}
+
+/* Button */
+.btn-pink {
+  background: #ff3c78;
+  color: #fff;
+  border: none;
+  padding: 8px 20px;
+  font-size: 14px;
+  border-radius: 3px;
+}
+
+.btn-pink:hover {
+  background: #e6326b;
+}
+
+/* Image */
+.contact-img {
+  max-width: 500px;
+}
